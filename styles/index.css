@@ -1,0 +1,81 @@
+.container-nav {
+    width: 1400px;
+    height: 78px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conatainer-nav__logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img-logo {
+    width: 30.16px;
+    height: 30px;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    translate: 12px;
+}
+
+.container-nav__navbar {
+    width: 350px;
+    height: 28px;
+    color: #2F281E;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+li {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.container-nav__btn-sign-in {
+    width: 102px;
+    height: 46px;
+    border: solid #BCD0E5 1px;
+    background-color: white;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.container-nav__btn-sign-up {
+    width: 102px;
+    height: 46px;
+    border: solid #FF9900 1px;
+    background-color: #FF9900;
+    color: white;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+
+/* border button sign in #BCD0E5
+text logo + button sign in #173A56
+background buttons #FF9900 
+nav + h #2F281E
+
+p #544837
+
+
+font-family: 'Poppins', sans-serif; */
