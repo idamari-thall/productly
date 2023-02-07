@@ -110,6 +110,8 @@ h1 {
     margin: 0;
 }
 
+
+
 .container-header__text {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -117,7 +119,6 @@ h1 {
     font-size: 18px;
     line-height: 28px;
     color: #544837;
-    margin: 0;
 }
 
 .container-header__links__btn {
@@ -188,12 +189,13 @@ h4 {
     margin-block-end: 0.5em;
 }
 
-.container-tools__text {
+p {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
+    color: #544837;
 }
 
 .container-feature__btn {
@@ -213,8 +215,32 @@ h4 {
     text-transform: uppercase;
 }
 
-/* Efortless validation */
+/* Effortless validation */
+.container-effortless {
+    width: 1110px;
+    height: 574px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.container-effortless__text {
+    width: 486px;
+    height: 531px;
+}
+
+h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2F281E;
+}
+
+.container-effortless__img {
+    width: 520px;
+    height: 573px;
+}
 
 /* Product manager */
 
@@ -252,7 +278,6 @@ ul {
     color: #2F281E;
     list-style-type: none;
 }
-
 
 .container-footer__input {
     width: 131px;
