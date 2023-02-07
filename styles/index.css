@@ -1,4 +1,8 @@
-/* sign in btn color */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /* navbar */
 .container-nav {
@@ -55,6 +59,12 @@ button>a {
     color: white;
 }
 
+/* Går det på ngt sett att välja alla a 
+som är nested i button utom en? */
+.sign-in {
+    color: #544837;
+}
+
 .container-nav__btn-sign-in {
     width: 102px;
     height: 46px;
@@ -66,7 +76,6 @@ button>a {
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    color: #544837;
 }
 
 .container-nav__btn-sign-up {
@@ -163,7 +172,16 @@ h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 54px;
-    text-align: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+main {
+    height: 3000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /* feature */
@@ -176,8 +194,23 @@ h2 {
     align-items: center;
 }
 
+.container-feature__header {
+    width: 539px;
+    height: 108;
+    text-align: center;
+    margin-block-end: 60px;
+}
+
 .container-tools {
+    width: 1095px;
+    height: 204px;
     display: flex;
+    justify-content: space-around;
+}
+
+.tools {
+    width: 240px;
+    height: 178px;
 }
 
 h4 {
@@ -204,6 +237,8 @@ p {
     background-color: #FF9900;
     border: solid 1px #FF9900;
     border-radius: 3px;
+    position: relative;
+    top: 50px;
 }
 
 .container-feature__link {
@@ -221,6 +256,7 @@ p {
     height: 574px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .container-effortless__text {
@@ -245,9 +281,12 @@ h5 {
 /* Product manager */
 .container-product {
     width: 1121px;
-    height: 700px;
+    height: 200px;
+    /* Jag minskade höjden för att jag ville att rubriken och texten
+    skulle komma närmare varandra men inget händer. Varför? */
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .container-product__img {
@@ -264,7 +303,7 @@ h5 {
 }
 
 .container-product__text__check {
-    width: 400px;
+    width: 440px;
     height: 52px;
     display: flex;
     justify-content: ;
@@ -274,6 +313,7 @@ h5 {
 .check {
     width: 35px;
     height: 35px;
+    margin-right: 30px;
 }
 
 /* Marketers */
@@ -282,6 +322,7 @@ h5 {
     height: 609px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .container-marketers__text {
@@ -300,9 +341,8 @@ h5 {
     width: 1109px;
     height: 308px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-end;
-
 }
 
 .container-footer__logo {
@@ -339,6 +379,8 @@ input {
     height: 48px;
     border-color: #BCD0E5;
     border-radius: 3px;
+    position: relative;
+    bottom: 15px;
 }
 
 .container-footer__input__btn {
