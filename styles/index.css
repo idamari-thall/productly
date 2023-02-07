@@ -243,7 +243,38 @@ h5 {
 }
 
 /* Product manager */
+.container-product {
+    width: 1121px;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.container-product__img {
+    width: 535px;
+    height: 521px;
+}
+
+.container-product__text {
+    width: 486px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-product__text__check {
+    width: 400px;
+    height: 52px;
+    display: flex;
+    justify-content: ;
+    align-items: center;
+}
+
+.check {
+    width: 35px;
+    height: 35px;
+}
 
 /* Marketers */
 .container-marketers {
