@@ -246,6 +246,22 @@ h5 {
 
 
 /* Marketers */
+.container-marketers {
+    width: 1110px;
+    height: 609px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-marketers__text {
+    width: 486px;
+    height: 531px;
+}
+
+.container-marketers__img {
+    width: 542px;
+    height: 609px;
+}
 
 
 /* Footer */
