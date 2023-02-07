@@ -1,5 +1,6 @@
 /* sign in btn color */
 
+/* navbar */
 .container-nav {
     width: 1400px;
     height: 78px;
@@ -31,7 +32,7 @@ h3 {
     translate: 12px;
 }
 
-ul {
+.container-nav__navbar__list {
     width: 350px;
     height: 28px;
     font-family: 'Poppins', sans-serif;
@@ -82,6 +83,7 @@ button>a {
     translate: 10px;
 }
 
+/* header */
 header {
     display: flex;
     width: 1250px;
@@ -117,7 +119,6 @@ h1 {
     color: #544837;
     margin: 0;
 }
-
 
 .container-header__links__btn {
     width: 175px;
@@ -164,6 +165,7 @@ h2 {
     text-align: center;
 }
 
+/* feature */
 .container-feature {
     width: 1200px;
     height: 543px;
@@ -194,7 +196,6 @@ h4 {
     line-height: 26px;
 }
 
-
 .container-feature__btn {
     width: 175px;
     height: 53px;
@@ -203,7 +204,6 @@ h4 {
     border-radius: 3px;
 }
 
-
 .container-feature__link {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -211,6 +211,79 @@ h4 {
     font-size: 16px;
     line-height: 24px;
     text-transform: uppercase;
+}
+
+/* Efortless validation */
+
+
+/* Product manager */
+
+
+/* Marketers */
+
+
+/* Footer */
+.container-footer {
+    width: 1109px;
+    height: 308px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+.container-footer__logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: center;
+}
+
+.container-footer__logo__header {
+    margin-block-start: 0;
+}
+
+ul {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #2F281E;
+    list-style-type: none;
+}
+
+
+.container-footer__input {
+    width: 131px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input {
+    width: 325px;
+    height: 48px;
+    border-color: #BCD0E5;
+    border-radius: 3px;
+}
+
+.container-footer__input__btn {
+    width: 131px;
+    height: 39px;
+    background-color: #FF9900;
+    border: solid 1px #FF9900;
+    border-radius: 3px;
+}
+
+.container-footer__input__link {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
 }
 
 /* border button sign in #BCD0E5
